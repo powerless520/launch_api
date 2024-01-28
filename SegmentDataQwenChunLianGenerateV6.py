@@ -11,7 +11,7 @@ import json
 import yaml
 import datetime
 
-DATA_PATH = '/Users/powerless/PycharmProjects/launch_server/shufa'
+DATA_PATH = ''
 RESULT_PATH = './result'
 
 
