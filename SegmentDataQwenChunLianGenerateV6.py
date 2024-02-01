@@ -426,7 +426,7 @@ def pipeline(custom_text):
     except:
         config = load_oss_config()
         dashscope.api_key = config['dashscope']['api_key']
-        create_path(config['result_path'])
+        create_path(RESULT_PATH)
         generator = ChunlianGenerator()
         generator.custom_text = custom_text
         generator.shanglian = "腾龙舞瑞雪九州"
